@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8" />
+    <title>I-chair</title>
+    <link rel="stylesheet" type="text/css" href="reset.css" />
+    <link rel="stylesheet" type="text/css" href="home.css" />
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="jquery.bxslider.js"></script>
+    <link href="jquery.bxslider.css" rel="stylesheet" />
+    <script type="text/javascript">
+        $(document).ready(function(){
+         $('.bxslider').bxSlider({
+        auto: true,
+        speed: 800,
+        slideWidth:1000,
+        minSlides:3,
+        maxSlides:3,
+        moveSlides:1
+         });
+        });
+    </script>
+</head>
+
+<body>
+    <header class="Header">
+        <div class="Header_head">
+            <h1 class="logo">I-chair</h1>
+        </div>
+        <nav class="Header_body">
+            <ul class="Menu">
+                <li><a href="#home" class="Menu_item">Home</a></li>
+                <li><a href="product.html" class="Menu_item">Product</a></li>
+                <li><a href="contact.html" class="Menu_item">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="ImageSlide">
+        <ul class="bxslider">
+            <li class="ImageSlide_item">
+                <img class="ImageSlide_image" src="images/main1.jpg" >
+            </li>
+            <li class="ImageSlide_item">
+                <img class="ImageSlide_image" src="images/main2.jpg" >
+            </li>
+            <li class="ImageSlide_item">
+                <img class="ImageSlide_image" src="images/main3.jpg" >
+            </li>
+        </ul>
+    </div>
+
+    <div class="Introduce" id="home">
+        <h2 class="Introduce_head">Find Your Style</h2>
+        <div class="Introduce_body">ワンランク上の生活へ<br>あなたに合った椅子がきっと見つかります</div>
+    </div>
+
+    <div class="TopPage">
+        <div class="TopPage_sub">
+            <img class="TopPage_img" src="images/top.jpg">
+        </div>
+        <div class="TopPage_main">
+            <h3 class="TopPage_head">I-fit chair <br> series</h3>
+            <div class="TopPage_body">
+                I-chairの人気シリーズ<br>カウンターでの食事を楽しみませんか？
+            </div>
+            <div class="TopPage_foot"><a href="product.html" class="btn btn-border-shadow btn-border-shadow--color">check!</a></div>
+        </div>
+    </div>
+
+    <div class="OtherProducts">
+        <div class="OtherProducts_head">
+            <h2 class="OtherProducts_head_tag">他の製品</h2>
+        </div>
+        <nav class="OtherProducts_body">
+            <ul class="OtherProducts_item">
+                <li class="Product">
+                    <img class="Product_img" src="images/standard.png" >
+                    <div class="Product_name">dining chair</div>
+                </li>
+                <li class="Product">
+                    <img class="Product_img" src="images/sofa.png" >
+                    <div class="Product_name">sofa</div>
+                </li>
+                <li class="Product">
+                    <img class="Product_img" src="images/office.png" >
+                    <div class="Product_name">office chair</div>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="contactbx">
+        <img src="images/contact-10.jpg">
+        <a href="contact.html">問い合わせ</a>
+    </div>
+
+    <div class="footer">
+        <div class="footer_item">©2020 MD-seminar-1B I-chair inc.</div>
+    </div>
+</body>
+</html>
