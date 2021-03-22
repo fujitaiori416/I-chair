@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8" />
+    <title>Thank you for buying!!</title>
+    <link rel="stylesheet" type="text/css" href="reset.css" />
+    <link rel="stylesheet" type="text/css" href="home.css" />
+    <link rel="stylesheet" type="text/css" href="buy.css" />
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="jquery.bxslider.js"></script>
+    <link href="jquery.bxslider.css" rel="stylesheet" />
+    <script type="text/javascript">
+        $(document).ready(function(){
+         $('.bxslider').bxSlider({
+        auto: true,
+        speed: 800,
+        slideWidth:1000,
+        minSlides:3,
+        maxSlides:3,
+        moveSlides:1
+         });
+        });
+    </script>
+</head>
+
+<body>
+    <header class="Header">
+        <div class="Header_head">
+            <h1 class="logo">I-chair</h1>
+        </div>
+        <nav class="Header_body">
+            <ul class="Menu">
+                <li><a href="home.html" class="Menu_item">Home</a></li>
+                <li><a href="product.html" class="Menu_item">Product</a></li>
+                <li><a href="contact.html" class="Menu_item">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="buy_top">
+        <img src="images/standard.png">
+        <h2>ご購入ありがとうございました</h2>
+        <p>今後もI-chairを<br>よろしくお願いいたします</p>
+        <div class="buy_button">
+            <a href="home.html" class="btn-flat-simple">
+                <i class="fa fa-caret-right"></i> 買い物を続ける
+            </a>
+        </div>
+    </div>
+
+    <div class="buy_footer">
+        <div class="footer_item">©2020 MD-seminar-1B I-chair inc.</div>
+    </div>
+</body>
+</html>
