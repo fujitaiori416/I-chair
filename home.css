@@ -1,0 +1,290 @@
+body {
+	font-size: 120%;
+	color: rgb(44, 42, 44);
+	background-color: #fff;
+}
+
+header {
+	width: 100%;
+	height: 135px;
+	background-color: #232223;
+	text-align: center;
+	margin: 0;
+}
+
+.logo {
+	font-size: 150%;
+	color: #fff;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+	font-size: 100%;
+	padding-top: 25px;
+}
+
+header ul li {
+display: inline-block;
+line-height: 2.5em;
+padding: 1em auto;
+width: 20%;
+min-width: 9ex;
+text-align: center;
+color: rgba(255, 255, 255, 0.61);
+background-color: #232223;
+margin-top: 20px;
+}
+
+.Menu li a {
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.61);
+}
+
+header ul li :hover {
+	border-bottom: 2px solid #fff;
+	color: #fff;
+}
+
+.ImageSlide {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	overflow: hidden;
+}
+
+.bxslider {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.Introduce {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	margin-left: 25%;
+	margin-right: 25%;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+}
+
+.Introduce_head {
+	font-weight: bold;
+	font-size: 160%;
+	line-height: 2;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Introduce_body {
+	color: rgb(117, 117, 117);
+	font-size: 100%;
+	line-height: 2;
+}
+
+.TopPage {
+	display: flex;
+	align-items: center;
+	width: auto;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.TopPage_sub {
+	margin: 15px;
+}
+
+.TopPage_sub img {
+	max-width: 100%;
+	height: auto;
+}
+
+.TopPage_main {
+	text-align: center;
+	display: flex;
+	flex: 1 1 55%;
+	flex-direction: column;
+	justify-content: space-between;
+	align-self: stretch;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	
+}
+
+.TopPage_head {
+	font-weight: bold;
+	font-size: 200%;
+	height: 70px;
+}
+
+.TopPage_body {
+	font-size: 110%;
+	line-height: 2;
+	color: rgb(117, 117, 117);
+	margin-top: 20px;
+}
+
+.TopPage_foot {
+	margin-top: 30px;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.btn,
+a.btn,
+button.btn {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+}
+
+a.btn-border-shadow {
+  padding: calc(1.5rem - 12px) 3rem 1.5rem;
+
+  background: #fff;
+}
+
+a.btn-border-shadow:before {
+  position: absolute;
+  top: -6px;
+  left: -6px;
+
+  width: 100%;
+  height: 100%;
+
+  content: "";
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+
+  border: 3px solid #000;
+  border-radius: 0.5rem;
+}
+
+a.btn-border-shadow:hover {
+  padding: calc(1.5rem - 6px) 3rem;
+}
+
+a.btn-border-shadow:hover:before {
+  top: 0;
+  left: 0;
+}
+
+a.btn-border-shadow--color {
+  border-radius: 0;
+  background: rgb(211, 211, 211);
+}
+
+a.btn-border-shadow--color:before {
+  border-radius: 0;
+}
+
+.OtherProducts {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+
+.OtherProducts_head h2 {
+	font-weight: bold;
+	font-size: 130%;
+}
+
+.OtherProducts_body {
+	margin-top: 2em;
+	width: 90%;
+}
+
+.OtherProducts_body ul li{
+	display: inline-block;
+	width: 25%;
+	opacity: 50%;
+}
+
+.Product:hover {
+	opacity: 100%;
+}
+
+.Product_img {
+	width: 150px;
+}
+
+.Product_name {
+	font-weight: bold;
+	line-height: 2;
+}
+
+.contactbx {
+	position: relative;
+	text-align: center;
+	margin-bottom: 20px;
+	}
+  
+  .contactbx a {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+	margin:0;
+	font-size: 40px;
+	border: solid white 2px;
+	padding: 20px;
+	color: white;
+	text-decoration: none;
+	transition: .4s;
+	}
+  
+  .contactbx a:hover{
+	background: rgba(255, 255, 255, 0.295);
+	color: rgb(255, 255, 255);
+	}
+  
+  .contactbx img {
+	width: 77%;
+	height: auto;
+	}
+
+.footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 70px;
+	background-color: #353335;
+}
+
+.footer_item {
+	color: rgb(218, 218, 218);
+	font-size: small;
+}
