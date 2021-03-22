@@ -1,0 +1,335 @@
+.MainImage img {
+	width: 100%;
+	height: auto;
+}
+
+.Product_introduce {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 2em;
+}
+
+.Product_introduce_head {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	margin-left: 25%;
+	margin-right: 25%;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	width: 30%;
+}
+
+.Product_introduce_head h3 {
+	font-weight: bold;
+	font-size: 160%;
+	line-height: 2;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Product_introduce_body {
+	color: rgb(117, 117, 117);
+	font-size: 100%;
+	line-height: 2;
+	text-align: center;
+}
+
+.I-chair {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: auto;
+}
+
+.I-chair_model {
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+.I-chair_main {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-self: stretch;
+	width: fit-content;
+	margin-right: 10%;
+}
+
+.I-chair_main_head h3 {
+	font-weight: bold;
+	font-size: 160%;
+	line-height: 40px;
+}
+
+.price_tax {
+	display: flex;
+	align-items: flex-end;
+	line-height: 2;
+}
+
+.price {
+	font-size: 120%;
+}
+
+.I-chair_main_body {
+	height: auto;
+}
+
+.ECM_RadioInput {
+	padding: 10px 8px;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+  }
+  .ECM_RadioInput-Input {
+	opacity: 0;
+	width: 0;
+	margin: 0;
+  }
+  .ECM_RadioInput-Input:focus + .black {
+	border: solid 2px #333333;
+	background: #EEEEEE;
+  }
+  .ECM_RadioInput-Input:checked + .black {
+	border: solid 2px #333333;
+  }
+  .ECM_RadioInput-Input:checked + .black::before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background: #333333;
+  }
+  .black {
+	position: relative;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	background: #fff;
+	border: solid 2px #888;
+  }
+  .ECM_RadioInput-Input:focus + .white {
+	border: solid 2px #333333;
+	background: #c5c5c5;
+  }
+  .ECM_RadioInput-Input:checked + .white {
+	border: solid 2px #858686;
+  }
+  .ECM_RadioInput-Input:checked + .white::before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background: #ffffff;
+  }
+  .white {
+	position: relative;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	background: #fff;
+	border: solid 2px #888;
+  }
+  .ECM_RadioInput-Input:focus + .red {
+	border: solid 2px #333333;
+	background: #EEEEEE;
+  }
+  .ECM_RadioInput-Input:checked + .red {
+	border: solid 2px #e75d5d;
+  }
+  .ECM_RadioInput-Input:checked + .red::before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background: #e75d5d;
+  }
+  .red {
+	position: relative;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	background: #fff;
+	border: solid 2px #888;
+  }
+  .ECM_RadioInput-Input:focus + .blue {
+	border: solid 2px #333333;
+	background: #EEEEEE;
+  }
+  .ECM_RadioInput-Input:checked + .blue {
+	border: solid 2px #4a81c9;
+  }
+  .ECM_RadioInput-Input:checked + .blue::before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background: #4a81c9;
+  }
+  .blue {
+	position: relative;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	background: #fff;
+	border: solid 2px #888;
+  }
+  .ECM_RadioInput-Input:focus + .beige {
+	border: solid 2px #333333;
+	background: #EEEEEE;
+  }
+  .ECM_RadioInput-Input:checked + .beige {
+	border: solid 2px #998663;
+  }
+  .ECM_RadioInput-Input:checked + .beige::before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background: #998663;
+  }
+  .beige {
+	position: relative;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	background: #fff;
+	border: solid 2px #888;
+  }
+  .ECM_RadioInput-LabelText {
+	margin-left: 12px;
+	display: block;
+	font-size: 18px;
+	font-weight: bold;
+  }
+
+  .I-chair_main_foot {
+	  display: flex;
+	  width: auto;
+	  align-items: center ;
+  }
+
+.selectdiv {
+	position: relative;
+	/*Don't really need this just for demo styling*/
+	
+	float: left;
+	min-width: 150px;
+  }
+  
+  /* IE11 hide native button (thanks Matt!) */
+  select::-ms-expand {
+  display: none;
+  }
+  
+  .selectdiv:after {
+	content: '<>';
+	font: 17px "Consolas", monospace;
+	color: #333;
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	transform: rotate(90deg);
+	right: 11px;
+	/*Adjust for position however you want*/
+	
+	top: 18px;
+	padding: 0 0 2px;
+	border-bottom: 1px solid #999;
+	/*left line */
+	
+	position: absolute;
+	pointer-events: none;
+  }
+  
+  .selectdiv select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	/* Add some styling */
+	
+	display: block;
+	width: 100%;
+	max-width: 320px;
+	height: 50px;
+	float: right;
+	margin: 5px 0px;
+	padding: 0px 24px;
+	font-size: 16px;
+	line-height: 1.75;
+	color: #333;
+	background-color: #ffffff;
+	background-image: none;
+	border: 1px solid #cccccc;
+	-ms-word-break: normal;
+	word-break: normal;
+  }
+
+  .buy_button {
+	  margin-left: 15%;
+  }
+
+  .btn-flat-simple {
+	position: relative;
+	display: inline-block;
+	font-weight: bold;
+	font-size: 120%;
+	padding: 0.25em 0.5em;
+	padding-top: 0.6em;
+	text-decoration: none;
+	color: #3e3d3f;
+	background: #ECECEC;
+	transition: .4s;
+	height: 45px;
+	width: 150px;
+	text-align: center;
+  }
+  
+  .btn-flat-simple:hover {
+	background: #3e3d3f;
+	color: white;
+  }
