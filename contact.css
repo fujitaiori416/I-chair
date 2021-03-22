@@ -1,0 +1,104 @@
+.MainImage img {
+	width: 100%;
+	height: auto;
+}
+
+.Product_introduce {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 2em;
+}
+
+.Product_introduce_head {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	margin-left: 25%;
+	margin-right: 25%;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	width: 30%;
+}
+
+.Product_introduce_head h3 {
+	font-weight: bold;
+	font-size: 160%;
+	line-height: 2;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Product_introduce_body {
+	display: flex;
+	justify-content: center;
+	width: 80%;
+}
+
+.Product_introduce_body_copy {
+	display: flex;
+	color: rgb(117, 117, 117);
+	font-size: 100%;
+	line-height: 3;
+	text-align: left;
+	align-items: center;
+	padding-right: 5%;
+}
+
+.contact_form {
+	display: flex;
+	align-items: center;
+}
+
+.form-style-1 {
+	margin:10px auto;
+	max-width: 500px;
+	font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.form-style-1 li {
+	padding: 0;
+	display: block;
+	list-style: none;
+	margin: 10px 0 0 0;
+}
+.form-style-1 label{
+	margin:0 0 3px 0;
+	padding:0px;
+	display:block;
+	font-weight: bold;
+	font-size: 120%;
+}
+.form-style-1 .field-divided{
+	width: 55%;
+}
+.form-style-1 .field-long{
+	width: 110%;
+}
+.form-style-1 .field-textarea{
+	height: 100px;
+}
+.form-style-1 input[type=submit], .form-style-1 input[type=button]{
+	background: #4B99AD;
+	padding: 8px 15px 8px 15px;
+	border: none;
+	color: #fff;
+}
+.form-style-1 input[type=submit]:hover, .form-style-1 input[type=button]:hover{
+	background: #4691A4;
+	box-shadow:none;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+}
+
+.contact_footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 70px;
+	background-color: #353335;
+	position: absolute;
+	bottom: 0;
+}
